@@ -1,0 +1,50 @@
+/* callback form */
+.callback-form,
+.wpcf7-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.wpcf7 {
+  width: 100%;
+}
+
+.callback-form input,
+.wpcf7-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #f5f5f5 1px solid;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.callback-form input:focus,
+.wpcf7-form input:focus {
+  outline-color: #ffd700;
+}
+
+.callback-form .btn,
+.wpcf7-form .btn {
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.wpcf7-submit {
+  background-color: #ffd700;
+}
+
+.wpcf7-form .wpcf7-submit:hover {
+  cursor: pointer;
+  background-color: #ffd900c4;
+}
+
+.demo-content {
+  padding: 20px;
+}
+
+.contact .column-1 h2 {
+  margin-bottom: 10px;
+}

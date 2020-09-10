@@ -1,0 +1,91 @@
+/* Buttons */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #333;
+  background-color: #ffd700;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary,
+.bg-primary {
+  background: #ffd700;
+  color: #fff;
+}
+
+.btn-secondary,
+.bg-secondary {
+  background: #0284d0;
+  color: #fff;
+}
+
+.btn-dark,
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-light,
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+/* Request A Demo button */
+.demo-btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px 30px;
+  color: #333;
+  background-color: #ffd700;
+  border-radius: 5px;
+}
+
+/* To Top Button */
+.btn-top {
+  background: #004575;
+  position: fixed;
+  right: 1.2em;
+  bottom: 1.2em;
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0;
+  padding: 0 1.2em;
+  border: 1px solid #3b2551;
+  border-radius: 2px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 44px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin-left: -9px;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.up:hover polyline,
+.up:focus polyline {
+  stroke-width: 15;
+}
+
+.up:active polyline {
+  stroke-width: 15;
+  transition: all 100ms ease-in-out;
+}

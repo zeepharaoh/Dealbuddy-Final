@@ -1,0 +1,21 @@
+/*
+Theme Name: DealBud
+Theme URI: 
+Author: Designed by Zeyad Gomaa, Theme created by Jonthan Laasonen
+Author URI: www.github.com/jona-laa,
+Description: Theme for Deal Buddy
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Deal Buddy
+Text Domain: 
+*/
+
+@import url('./css/style.css');
+@import url('./css/header.css');
+@import url('./css/navbar.css');
+@import url('./css/icons.css');
+@import url('./css/forms.css');
+@import url('./css/flex-layout.css');
+@import url('./css/buttons.css');
+@import url('./css/footer.css');

@@ -1,0 +1,29 @@
+/* Icons */
+
+.icons {
+  padding: 30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background-color: #ffd700;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.who img:hover {
+  opacity: 0.7;
+}
+
+/* Mobile */
+@media only screen and (max-width: 900px) {
+  .who img {
+    width: 70%;
+  }
+}
